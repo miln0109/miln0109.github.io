@@ -14,7 +14,7 @@ body {
     font-size: 18px;
     color: rosybrown
 }
-ul. no-bullets {
+.ul no-bullets {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,7 +30,13 @@ ul. no-bullets {
 
 .link {
     text-decoration: none;
+    background-color:rosybrown;
+    opacity: 25;
+    border-style: dotted; 
+    border-width: 2px;
+
 }
+
 footer {
     background-color: rosybrown;
     opacity: 60;
