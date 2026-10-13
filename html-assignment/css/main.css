@@ -22,10 +22,6 @@ nav a {
     color: 61, 104, 106;
 }
 
-nav a {
-    color:none;
-}
-
 .site-title {
     background: antiquewhite;
     color: rosybrown;
@@ -53,14 +49,6 @@ li:nth-child(even) {
 
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
-}
-
-.link {
-    text-decoration: none;
-    background-color: rosybrown;
-    border-style: dotted;
-    border-width: 2px;
-
 }
 
 footer {
