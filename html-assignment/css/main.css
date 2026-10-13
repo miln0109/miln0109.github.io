@@ -3,28 +3,35 @@
     opacity: 60;
 }
 
+
+.site-title {
+    background-color: rosybrown;
+    opacity: .50;
+    color: antiquewhite;
+    text-align: center;
+}
 body {
     font-size: 18px;
     color: rosybrown
 }
-
-.site-title {
-    background-color: rosybrown;
-    opacity: 20;
-    color: antiquewhite;
-    text-align: center;
+ul. no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-footer {
-    background-color: rosybrown;
-    opacity: 60;
-}
-
 .heading {
-    color: bisque;
+    color: cadetblue;
 
 }
 
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
+}
+
+.link {
+    text-decoration: none;
+}
+footer {
+    background-color: rosybrown;
+    opacity: 60;
 }
