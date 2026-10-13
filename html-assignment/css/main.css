@@ -1,17 +1,30 @@
-* {background-color:aliceblue; opacity: 60;}
+* {
+    background-color: aliceblue;
+    opacity: 60;
+}
+
 body {
     font-size: 18px;
-    color:rosybrown
+    color: rosybrown
 }
-h1{
-    background-color: rosybrown; opacity: 20;
+
+.site-title {
+    background-color: rosybrown;
+    opacity: 20;
     color: antiquewhite;
     text-align: center;
 }
-footer{background-color: rosybrown; opacity:60
-    ;}
-/* Style element id=image-test.jpg */
-<id=image
-.image {
-    box-shadow: 8px 8px 15px rgb(red green blue / 0.5alpha);
+
+footer {
+    background-color: rosybrown;
+    opacity: 60;
+}
+
+.heading {
+    color: bisque;
+
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
 }
