@@ -7,10 +7,11 @@ body {
 }
 
 .site-title footer{
-    background-color: rosybrown;
-    opacity: .50;
-    color: antiquewhite;
+    background-color: antiquewhite;
+    color: rosybrown;
     text-align: center;
+    border-style: solid;
+    border-radius: 18px;
 }
 
 .ulno-bullets {
