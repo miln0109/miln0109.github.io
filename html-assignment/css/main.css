@@ -1,15 +1,14 @@
-* {
-    background-color: aliceblue;
-}
+
 
 body {
+    background-color: rgb(188,143,143,.50);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    color: rosybrown;
+    color: antiquewhite;
 }
 
 .site-title footer{
-    background-color: rosybrown;
+    background-color: antiquewhite;
     opacity: .50;
     color: antiquewhite;
     text-align: center;
