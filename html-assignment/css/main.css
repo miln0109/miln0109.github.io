@@ -1,4 +1,6 @@
-
+* {
+    background-color: aliceblue;
+}
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -6,12 +8,10 @@ body {
     color: rosybrown;
 }
 
-.site-title footer{
-    background-color: antiquewhite;
+.site-title {
+    background: antiquewhite;
     color: rosybrown;
     text-align: center;
-    border-style: solid;
-    border-radius: 18px;
 }
 
 .ulno-bullets {
@@ -25,8 +25,12 @@ body {
 
 }
 
-
-
+li:nth-child(odd) {
+    border: 2px; color: cadetblue;
+}
+li:nth-child(even){
+    border: 2px; color: rgb(61, 104, 106);
+}
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
@@ -34,8 +38,12 @@ body {
 .link {
     text-decoration: none;
     background-color:rosybrown;
+
     border-style: dotted; 
     border-width: 2px;
 
 }
 
+footer{
+    background-color: antiquewhite;
+}
