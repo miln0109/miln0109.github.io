@@ -1,28 +1,32 @@
 * {
     background-color: aliceblue;
-    opacity: 60;
 }
 
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rosybrown;
+}
 
-.site-title {
+.site-title footer{
     background-color: rosybrown;
     opacity: .50;
     color: antiquewhite;
     text-align: center;
 }
-body {
-    font-size: 18px;
-    color: rosybrown
-}
+
 .ul no-bullets {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .heading {
     color: cadetblue;
 
 }
+
+
 
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
@@ -37,7 +41,3 @@ body {
 
 }
 
-footer {
-    background-color: rosybrown;
-    opacity: 60;
-}
