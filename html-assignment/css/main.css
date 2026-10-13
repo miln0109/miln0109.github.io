@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-.ul no-bullets {
+.ulno-bullets {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,7 +35,6 @@ body {
 .link {
     text-decoration: none;
     background-color:rosybrown;
-    opacity: 25;
     border-style: dotted; 
     border-width: 2px;
 
