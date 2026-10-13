@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: rosybrown;
 }
@@ -14,36 +14,41 @@ body {
     text-align: center;
 }
 
-.ulno-bullets {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 .heading {
     color: cadetblue;
 
 }
 
+.ulno-bullets {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
 li:nth-child(odd) {
-    border: 2px; color: cadetblue;
+    border: 2px;
+    color: cadetblue;
 }
-li:nth-child(even){
-    border: 2px; color: rgb(61, 104, 106);
+
+li:nth-child(even) {
+    border: 2px;
+    color: rgb(61, 104, 106);
 }
+
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
 
 .link {
     text-decoration: none;
-    background-color:rosybrown;
+    background-color: rosybrown;
 
-    border-style: dotted; 
+    border-style: dotted;
     border-width: 2px;
 
 }
 
-footer{
+footer {
     background-color: antiquewhite;
 }
