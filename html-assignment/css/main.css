@@ -1,9 +1,11 @@
+* {background-color:aliceblue}
 body {
     font-size: 18px;
     color:rosybrown
 }
 h1{
-    background-color: antiquewhite;
+    background-color: rosybrown;
+    color: antiquewhite;
+    text-align: center;
 }
 footer{background-color: antiquewhite;}
-<div id=image>
