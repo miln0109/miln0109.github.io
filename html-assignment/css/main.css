@@ -1,5 +1,5 @@
 * {
-    background-color: aliceblue;
+    background-color: rgb(236, 242, 246);
 }
 
 body {
@@ -14,16 +14,13 @@ body {
     text-align: center;
 }
 
-
 .heading {
     color: cadetblue;
 
 }
 
-.ulno-bullets {
+.hobbies {
     list-style-type: square;
-    margin: 0;
-    padding: 0;
 }
 
 li:nth-child(odd) {
@@ -43,7 +40,6 @@ li:nth-child(even) {
 .link {
     text-decoration: none;
     background-color: rosybrown;
-
     border-style: dotted;
     border-width: 2px;
 
