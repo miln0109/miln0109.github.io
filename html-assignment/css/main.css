@@ -24,9 +24,9 @@ nav a {
     color: 61, 104, 106;
 }
 
-nav a {
-    hover:antiquewhite;
-    focus: antiquewhite 
+nav a:hover,
+nav a:focus {
+    background color: antiquewhite 
 }
 
 .site-title {
