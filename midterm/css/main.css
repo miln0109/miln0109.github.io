@@ -1,0 +1,12 @@
+body {
+    background-color: #aad4cf;
+    background-image: url(lone-starfish-wide);
+    background-position: 55% 55%;
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    font-family: 'Gill Sans MT' sans-serif;
+    font-color: white;
+}
