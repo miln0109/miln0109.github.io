@@ -6,8 +6,16 @@ body {
 
 }
 
+.site-title {
+    background-color: antiquewhite;
+    color: rosybrown;
+    text-align: center;
+}
+
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -17,15 +25,16 @@ nav a {
     border: 2px solid cadetblue;
     padding: 4px 4px;
     display: inline-block;
-    color: rgb (61, 104, 106);
+    color: rgb(61, 104, 106);
 }
 
 nav a:hover,
+
 nav a:focus {
     background-color: antiquewhite;
 }
 
-.site-title {
+header, footer {
     background: antiquewhite;
     color: rosybrown;
     text-align: center;
@@ -43,6 +52,7 @@ nav a:focus {
 li:nth-child(odd) {
     border: 2px;
     color: cadetblue;
+    background-color: antiquewhite;
 }
 
 li:nth-child(even) {
@@ -54,6 +64,3 @@ li:nth-child(even) {
     box-shadow: 0px 0px 2px 1px black;
 }
 
-.footer {
-    background-color: antiquewhite;
-}
